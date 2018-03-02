@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    android:background="#ee000000">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:id="@+id/notification_image"
+        android:scaleType="centerCrop"
+        android:background="@drawable/mohit"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/notification_image">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/noti_close"
+            android:layout_alignParentEnd="true"
+            android:background="@android:drawable/ic_menu_close_clear_cancel" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="songname"
+            android:layout_marginLeft="15dp"
+            android:maxLines="1"
+            android:textSize="15dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/notification_song_name"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:text="artist_name"
+            android:maxLines="1"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/notification_artist_name"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noti_prev"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/noti_play"
+                android:layout_marginRight="30dp"
+                android:background="@android:drawable/ic_media_previous"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noti_play"
+                android:background="@android:color/transparent"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noti_next"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/noti_play"
+                android:background="@android:drawable/ic_media_next"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

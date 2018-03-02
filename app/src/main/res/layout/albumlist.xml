@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="3dp"
+    android:layout_marginBottom="3dp"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/album_image"
+        android:scaleType="fitXY"
+        android:layout_marginTop="-1dp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@+id/album_image"
+        android:background="?attr/colorPrimary"
+        android:layout_marginTop="-5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:id="@+id/album_name"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/album_name"
+            android:layout_centerVertical="true"
+            android:maxLines="1"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/artist_name"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "710127957363",
+    "firebase_url": "https://music-a01cc.firebaseio.com",
+    "project_id": "music-a01cc",
+    "storage_bucket": "music-a01cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710127957363:android:b581a6825c9bc604",
+        "android_client_info": {
+          "package_name": "com.mohit.mohit.music"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710127957363-rgfpi7egfsplpht9m2pqsmpnav0p8l7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHvIov4r3fz-w1atq5m9Rc9ifbudDOJio"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

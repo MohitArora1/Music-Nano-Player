@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_now_playing"
+            android:icon="@drawable/ic_music_note_black_24px"
+            android:title="Now Playing" />
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_library_music_black_24px"
+            android:title="Library" />
+        <item
+            android:id="@+id/nav_theme"
+            android:icon="@drawable/ic_color_lens_black_24px"
+            android:title="Theme" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_email_black_24px"
+                android:title="Contact Us"/>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_person_black_24px"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

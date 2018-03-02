@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Music</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="music_app_recycler_ad">ca-app-pub-8446341903786610/9861895083</string>
+    <string name="album_adid">ca-app-pub-8446341903786610/8553285481</string>
+    <string name="title_activity_search">Search</string>
+    <string name="search">Search...</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@android:color/white"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:id="@+id/newlayout1"
+        >
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/gradient_bg"
+        android:orientation="horizontal"
+        android:id="@+id/newlayout">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:id="@+id/songImage"
+            android:scaleType="fitXY"
+            android:src="@drawable/mohit" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/newlayout"
+        android:layout_toEndOf="@+id/newlayout"
+        android:layout_margin="11dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectedfile"
+            android:textSize="16sp"
+            android:text="songname"
+            android:maxLines="1"
+            android:maxLength="30"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:id="@+id/artistName"
+            android:text="artist"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true">
+        <ImageButton
+            android:foregroundGravity="right"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/play"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_play_arrow_black_24px"/>
+    </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
